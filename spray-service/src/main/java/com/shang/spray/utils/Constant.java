@@ -26,5 +26,6 @@ public class Constant {
     public final static int Sources_WallHaven=8;
 
     public final static int Sources_DuanZiGe=6;
+    public final static int SOURCES_QIUSHIBAIKE=7;
 
 }

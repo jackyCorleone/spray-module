@@ -31,6 +31,8 @@ public class BaseService<T> {
     protected FunnyRepository funnyRepository;
     @Autowired
     protected SourcesRepository sourcesRepository;
+    @Autowired
+    protected BaoZouPicTxRepository baoZouPicTxRepository;
 
 
     public boolean exists(Integer id) {

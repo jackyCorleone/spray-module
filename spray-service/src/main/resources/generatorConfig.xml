@@ -11,14 +11,14 @@
         </plugin>
 
         <jdbcConnection driverClass="com.mysql.jdbc.Driver"
-                        connectionURL="jdbc:mysql://127.0.0.1:3306/spray?characterEncoding=utf8"
-                        userId="root" password="">
+                        connectionURL="jdbc:mysql://192.168.1.186:3306/share_information?characterEncoding=utf8"
+                        userId="jacky" password="jacky123">
         </jdbcConnection>
 
         <javaModelGenerator targetPackage="com.shang.spray.entity" targetProject="src/main/java">
         </javaModelGenerator>
 
-        <table tableName="type" />
+        <table tableName="baozoupictx" />
 
 
     </context>
