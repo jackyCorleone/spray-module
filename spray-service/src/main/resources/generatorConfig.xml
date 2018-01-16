@@ -7,7 +7,7 @@
     <context id="Mysql" targetRuntime="MyBatis3Simple" defaultModelType="flat">
 
         <plugin type="tk.mybatis.mapper.generator.MapperPlugin">
-            <property name="mappers" value="com.shang.spray.repository.BaseRepository"/>
+            <property name="mappers" value="com.hxyw.shareadv.repository.BaseRepository"/>
         </plugin>
 
         <jdbcConnection driverClass="com.mysql.jdbc.Driver"

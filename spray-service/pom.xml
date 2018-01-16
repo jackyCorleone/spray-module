@@ -67,7 +67,12 @@
             <artifactId>pagehelper</artifactId>
             <version>5.0.0</version>
         </dependency>
-
+        <!-- Druid 数据连接池依赖 -->
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>druid</artifactId>
+            <version>1.0.16</version>
+        </dependency>
     </dependencies>
 
     <repositories>
