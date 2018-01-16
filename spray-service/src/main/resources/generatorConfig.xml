@@ -15,7 +15,7 @@
                         userId="jacky" password="jacky123">
         </jdbcConnection>
 
-        <javaModelGenerator targetPackage="com.shang.spray.entity" targetProject="src/main/java">
+        <javaModelGenerator targetPackage="com.hxyw.shareadv.entity" targetProject="src/main/java">
         </javaModelGenerator>
 
         <table tableName="baozoupictx" />

@@ -1,7 +1,6 @@
 package com.hxyw.shareadv.service;
 
 import com.hxyw.shareadv.repository.*;
-import com.shang.spray.repository.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
